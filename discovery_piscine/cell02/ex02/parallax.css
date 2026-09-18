@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg1 {
+
+
+    background-image: url("dog1.jpg");
+
+}
+
+
+.bg2 {
+    background-image: url("dog2.webp");
+}
+
+.caption .text {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+.block-black {
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
